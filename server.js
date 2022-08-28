@@ -76,6 +76,13 @@ function deleteNote(id, notesArray) {
   }
 }
 
+// adding delete route to delete notes
+
+app.delete("/api/notes/:id", (req, res) => {
+  deleteNote(req.params.id, notesDB);
+  res.json(true);
+});
+
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
 );
