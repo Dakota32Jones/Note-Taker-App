@@ -21,9 +21,7 @@ To run this application it is recommended that you run npm i in your terminal or
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+You can access the deployed application [here!](https://dj-note-taking-app.herokuapp.com/)
 
 ![Note 1 added to left hand column](./public/assets/images/Note%201%20appending%20to%20left%20hand%20column.png)
 ![Note 2 added to left hand column](./public/assets/images/Note%202%20appending%20to%20left%20hand%20column.png)
